@@ -7,11 +7,6 @@ namespace lecture
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!\n\n");
-            
-
-                  
-            // Commented because it breaks tests by freezing terminal because missing console input -- Deadlock?
-            /*
             Console.WriteLine("Type in a year and hit enter:\n");
             try
             {
@@ -21,9 +16,7 @@ namespace lecture
             catch (System.Exception e)
             {
                 Console.WriteLine("The given input is not a year, try something like \"2000\"");
-            }
-            */
-            
+            }      
         }
       
         public static bool IsLeapYear(int year)
